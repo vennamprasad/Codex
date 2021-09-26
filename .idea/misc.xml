@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../.gradle/caches/transforms-3/cb0c3fc1c3fae3e8afedb590aa8ca242/transformed/appcompat-1.3.1/res/drawable/abc_textfield_search_material.xml" value="0.16052631578947368" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/app_name_bg.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/baseline_add_to_home_screen_black_24dp.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/baseline_android_black_24dp.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/baseline_android_teal_500_24dp.xml" value="0.16672529409361095" />
+        <entry key="app/src/main/res/drawable/baseline_info_black_24dp.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/cursor.xml" value="0.16052631578947368" />
+        <entry key="app/src/main/res/drawable/div_gradiant.xml" value="0.16052631578947368" />
+        <entry key="app/src/main/res/drawable/ic_android.xml" value="0.14662971426844712" />
+        <entry key="app/src/main/res/drawable/ic_app.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/nav_drawer_bg.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/nav_drawer_shape.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/nav_item_shape.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/round_account_box_teal_500_24dp.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/round_android_teal_500_24dp.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/round_api_teal_500_24dp.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/round_arrow_circle_down_black_24dp.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/round_comment_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_contact_page_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_create_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_dark_mode_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_email_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_favorite_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_home_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_info_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_light_mode_teal_500_24dp.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/round_password_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_rate_review_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_restore_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_search_white_24dp.xml" value="0.16052631578947368" />
+        <entry key="app/src/main/res/drawable/round_share_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_star_teal_500_24dp.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/drawable/round_tips_and_updates_teal_500_24dp.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/splash.xml" value="0.2604166666666667" />
+        <entry key="app/src/main/res/font/.xml" value="0.2740740740740741" />
+        <entry key="app/src/main/res/font/nosifer.xml" value="0.2777777777777778" />
+        <entry key="app/src/main/res/font/roboto.xml" value="0.16940789473684212" />
+        <entry key="app/src/main/res/font/roboto_medium.xml" value="0.2777777777777778" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17560975609756097" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.23333333333333334" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.4244791666666667" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.23333333333333334" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.4244791666666667" />
+        <entry key="app/src/main/res/layout/home_category_item.xml" value="0.15032894736842106" />
+        <entry key="app/src/main/res/layout/home_list_item.xml" value="0.2276872964169381" />
+        <entry key="app/src/main/res/layout/layout_animation.xml" value="0.15032894736842106" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.18232239410334902" />
+        <entry key="app/src/main/res/menu-v26/bottom_navigation_menu.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.24166666666666667" />
+        <entry key="app/src/main/res/menu/home_menu.xml" value="0.2680921052631579" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.28703703703703703" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

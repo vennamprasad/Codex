@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textAppearanceBodyMicro" format="reference" />
+    <attr name="textAppearanceBodySmall" format="reference"/>
+    <attr name="textAppearanceBody" format="reference"/>
+    <attr name="textAppearanceBodyMedium" format="reference"/>
+    <attr name="textAppearanceBodyLarge" format="reference"/>
+</resources>

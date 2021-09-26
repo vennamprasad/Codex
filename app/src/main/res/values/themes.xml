@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Codex" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryVariant">@color/teal</item>
+        <item name="colorOnPrimary">@color/space</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowBackground">@color/space</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/roboto</item>
+
+        <item name="actionBarTheme">@style/ActionBar</item>
+    </style>
+
+    <style name="ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView.ActionBar">
+        <!--search view customization-->
+        <item name="layout">@layout/abc_search_view</item>
+        <item name="queryBackground">@drawable/abc_textfield_search_material</item>
+        <item name="submitBackground">@drawable/abc_textfield_search_material</item>
+        <item name="closeIcon">@drawable/abc_ic_clear_material</item>
+        <item name="searchIcon">@drawable/abc_ic_search_api_material</item>
+        <item name="searchHintIcon">@drawable/abc_ic_search_api_material</item>
+        <item name="goIcon">@drawable/abc_ic_go_search_api_material</item>
+        <item name="voiceIcon">@drawable/abc_ic_voice_search_api_material</item>
+        <item name="commitIcon">@drawable/abc_ic_commit_search_api_mtrl_alpha</item>
+        <item name="suggestionRowLayout">@layout/abc_search_dropdown_item_icons_2line</item>
+    </style>
+
+    <style name="Theme.Codex.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Codex.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Codex.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ShapeAppearanceOverlay.Nav" parent="Theme.Codex">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">50%</item>
+        <item name="cornerSizeBottomRight">50%</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+    </style>
+
+    <style name="ThemeOverlay.NavigationView" parent="">
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+
+
+</resources>
