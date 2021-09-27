@@ -21,7 +21,16 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+
     }
+
+
 
     kapt {
         correctErrorTypes = true
@@ -29,31 +38,12 @@ android {
     }
 
     buildTypes {
-        /*debug {
-            // useful if you're using crashlytics
-            *//**In your manifest file
-             <meta-data
-             android:name="firebase_crashlytics_collection_enabled"
-             android:value="${crashlytics}" />
-             *//*
-            firebaseCrashlytics {
-                mappingFileUploadEnabled false
-            }
-
-            FirebasePerformance {
-                instrumentationEnabled false
-            }
-
-            manifestPlaceholders = [crashlytics: "true"]
-            // end of crashlytics region
-
-            crunchPngs false
-        }*/
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
     }
@@ -62,7 +52,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8.toString()
+        jvmTarget = '1.8'
     }
     buildFeatures {
         viewBinding true
@@ -102,6 +92,9 @@ dependencies {
 
     // Room
     implementation "androidx.room:room-runtime:2.3.0"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
     kapt "androidx.room:room-compiler:2.3.0"
 
     // Kotlin Extensions and Coroutines support for Room
@@ -171,8 +164,10 @@ dependencies {
 
     //permissions
     // For developers using AndroidX in their applications
-    implementation 'com.vmadalin:easypermissions-ktx:1.0.0'
+    implementation 'pub.devrel:easypermissions:3.0.0'
 
     // android-utils-ktx
     implementation 'com.github.nisrulz:android-utils-ktx:1.1.0'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }

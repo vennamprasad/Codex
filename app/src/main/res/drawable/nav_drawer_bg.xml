@@ -4,7 +4,9 @@
 
     <corners
         android:bottomRightRadius="@dimen/large"
-        android:topRightRadius="@dimen/large"/>
-    <solid android:color="?android:attr/windowBackground"/>
-    <padding android:left="@dimen/_2sdp" android:right="@dimen/medium"/>
+        android:topRightRadius="@dimen/large" />
+    <solid android:color="?android:attr/windowBackground" />
+    <padding
+        android:left="@dimen/_2sdp"
+        android:right="@dimen/medium" />
 </shape>
