@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SkeletonLoaderConstraintLayout">
+        <attr name="skeletonLayout" format="reference"/>
+        <attr name="skeletonVisibility" format="boolean"/>
+    </declare-styleable>
+</resources>

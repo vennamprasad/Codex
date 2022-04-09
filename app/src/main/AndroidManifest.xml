@@ -16,50 +16,17 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
-    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
     <application
         android:name=".CodeXApplication"
-        android:icon="@drawable/ic_app"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/code_x"
-        android:roundIcon="@drawable/ic_app"
-        android:supportsRtl="true">
-        <activity
-            android:name=".ui.activity.CodeXActivity"
-            android:exported="true"
-            android:label="@string/Codex" />
-        <activity
-            android:name=".ui.activity.TrackerActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Codex.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <service android:name=".service.TrackingService" android:foregroundServiceType="location"/>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/ADMOB_APP_ID" />
-        <meta-data
-            android:name="firebase_crashlytics_collection_enabled"
-            android:value="true" />
-        <meta-data
-            android:name="firebase_performance_logcat_enabled"
-            android:value="true" />
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.Codex">
     </application>
 
 </manifest>
+
+
+

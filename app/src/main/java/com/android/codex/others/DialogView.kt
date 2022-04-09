@@ -16,10 +16,9 @@ class DialogView: DialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return super.onCreateDialog(savedInstanceState)
-        return MaterialAlertDialogBuilder(requireContext(), R.style.AlertDialogTheme)
+        return MaterialAlertDialogBuilder(requireContext())
             .setTitle("Cancel Run")
             .setMessage("Are you sure to delete ?")
-            .setIcon(R.drawable.round_delete_black_24dp)
             .setPositiveButton("Yes") { _, _ ->
                 yesListener?.let { it }
             }
