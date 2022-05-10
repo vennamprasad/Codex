@@ -1,10 +1,7 @@
 package com.android.codex.di
 
-import android.content.SharedPreferences
 import com.android.codex.BuildConfig
 import com.android.codex.api.ApiInterface
-import com.android.codex.others.Constants.KEY_NAME
-import com.android.codex.others.Constants.KEY_WEIGHT
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -47,6 +44,5 @@ object AppModule {
     @Provides
     fun provideApiService(retrofit: Retrofit): ApiInterface =
         retrofit.create(ApiInterface::class.java)
-
 
 }
